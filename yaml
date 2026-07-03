@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: caycho-transaccional
+  r2dbc:
+    url: r2dbc:postgresql://ep-spring-band-atx5auj3-pooler.c-9.us-east-1.aws.neon.tech/estudiantes?sslmode=require
+    username: neondb_owner
+    password: npg_vz0H6eIKWsQd
+  sql:
+    init:
+      mode: never
